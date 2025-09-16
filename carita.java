@@ -29,7 +29,7 @@ public class Ejercicio3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Parte 1: par o impar
+        
         System.out.print("Ingrese un número: ");
         int numero = sc.nextInt();
 
@@ -39,7 +39,7 @@ public class Ejercicio3 {
             System.out.println(numero + " es IMPAR");
         }
 
-        // Parte 2: números de 1 a 100 de 5 en 5
+        
         System.out.println("Números del 1 al 100 de 5 en 5:");
         for (int i = 1; i <= 100; i += 5) {
             System.out.println(i);
